@@ -1,5 +1,21 @@
+# Node.js & Python
+node_modules/
+__pycache__/
+
+# Logs
+logs/
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+
+# Terraform
 # Local .terraform directories
 **/.terraform/*
+terraform.tfstate.backup
 
 # .tfstate files
 *.tfstate
